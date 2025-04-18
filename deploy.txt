@@ -1,0 +1,15 @@
+#Deployment step
+1. Run server.py 
+python {path}/server.py
+* Please replace {path} to your relative path
+
+'Server listening on port 9999...' will be seen if server is running
+
+2. Run client.py
+python {path}/client.py
+* Please replace {path} to your relative path
+
+
+#Common error
+Error: client.py: ConnectionRefusedError: define send message to localhost port 9999
+Solution: Please start the server before running client.py
